@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kata_2_Dead_Ants.cs" />
+    <Compile Include="Kata_5_Two_Sum.cs" />
+    <Compile Include="Kata_1_String_Average.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
