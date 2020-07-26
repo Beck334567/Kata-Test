@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace KataTrain
 {
-    class Kata1StringAverage
+    public class Kata1StringAverage
     {
-        public static string AverageString(string str)
+        public string AverageString(string str)
         {
             int average;
             int sumstr = 0;

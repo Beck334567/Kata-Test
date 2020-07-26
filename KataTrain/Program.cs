@@ -13,12 +13,7 @@ namespace KataTrain
         {
             
             
-            Console.WriteLine(Kata1StringAverage.AverageString("one two three four five"));
-
-            Console.WriteLine(Kata2DeadAnts.DeadAntsCount("ant anantt aantnt"));
-
-             
-            Console.Read();
+           
 
         }
     }
