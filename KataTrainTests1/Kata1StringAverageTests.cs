@@ -12,18 +12,22 @@ namespace KataTrain.Tests
     public class Kata1StringAverageTests
     {
         [Test()]
-        public void AverageStringTest()
+        [TestCase("one two three four five","three")]
+        [TestCase("zero nine five two", "four")]
+        [TestCase("", "n/a")]
+        [TestCase(null, "n/a")]
+        [TestCase("five four", "four")]
+        public void AverageStringTest(string input,string output)
         {
             //Arrange
             var ex = new Kata1StringAverage();
-            var input = "one two three four five";
-
+            
             //Act
             var result = ex.AverageString(input);
-
+          
             //Assert
-            var expected = "three";
-            Assert.AreEqual(result,expected);
+            Assert.AreEqual(result, output);
+       
 
         }
     }
