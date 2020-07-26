@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kata_Test
+namespace KataTrain
 {
-    class Kata_5_Two_Sum
+    class Kata5TwoSum
     {
         public static int[] TwoSum(int[] nums, int target)
         {

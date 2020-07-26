@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kata_Test
+namespace KataTrain
 {
-    class Kata_2_Dead_Ants
+    class Kata2DeadAnts
     {
         public static int DeadAntsCount(string ants)
         {

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7A0E0D25-B76A-48E5-A8FD-61FA96640750}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Kata_Test</RootNamespace>
-    <AssemblyName>Kata Test</AssemblyName>
+    <RootNamespace>KataTrain</RootNamespace>
+    <AssemblyName>KataTrain</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Kata_2_Dead_Ants.cs" />
-    <Compile Include="Kata_5_Two_Sum.cs" />
-    <Compile Include="Kata_1_String_Average.cs" />
+    <Compile Include="Kata2DeadAnts.cs" />
+    <Compile Include="Kata5TwoSum.cs" />
+    <Compile Include="Kata1StringAverage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
