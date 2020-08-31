@@ -10,12 +10,8 @@ namespace KataTrain
     {
         public static int[] TwoSum(int[] nums, int target)
         {
-<<<<<<< HEAD
-            string str = "testdevelop2";
-=======
 
-            string a = "testgitkraken";
->>>>>>> test
+            int a = 1;
             int[] retn = new int[2];
             Dictionary<int, int> mydic = new Dictionary<int, int>();
             for (int i = 0; i < nums.Length; i++)
