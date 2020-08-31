@@ -10,6 +10,7 @@ namespace KataTrain
     {
         public static int[] TwoSum(int[] nums, int target)
         {
+
             string a = "testgitkraken";
             int[] retn = new int[2];
             Dictionary<int, int> mydic = new Dictionary<int, int>();
