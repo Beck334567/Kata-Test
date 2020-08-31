@@ -12,6 +12,7 @@ namespace KataTrain
         {
 
             int a = 1;
+            int a2 = 2;
             string testfeature = "11";
             string t2 = "@2"; 
             int[] retn = new int[2];
