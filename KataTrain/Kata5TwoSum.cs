@@ -12,6 +12,7 @@ namespace KataTrain
         {
 
             int a = 1;
+            string testfeature = "11";
             int[] retn = new int[2];
             Dictionary<int, int> mydic = new Dictionary<int, int>();
             for (int i = 0; i < nums.Length; i++)
