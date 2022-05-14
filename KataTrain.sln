@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1169
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataTrain", "KataTrain\KataTrain.csproj", "{7A0E0D25-B76A-48E5-A8FD-61FA96640750}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataTrainTests1", "KataTrainTests1\KataTrainTests1.csproj", "{E152077C-A31D-4C6A-A445-C60F3CC508F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{2E5AB577-9449-4607-845A-06FB63C7B3D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeTest", "LeetCodeTest\LeetCodeTest.csproj", "{8D2C62C5-2F3B-446D-9104-953518AACEBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{E152077C-A31D-4C6A-A445-C60F3CC508F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E152077C-A31D-4C6A-A445-C60F3CC508F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E152077C-A31D-4C6A-A445-C60F3CC508F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5AB577-9449-4607-845A-06FB63C7B3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5AB577-9449-4607-845A-06FB63C7B3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5AB577-9449-4607-845A-06FB63C7B3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5AB577-9449-4607-845A-06FB63C7B3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2C62C5-2F3B-446D-9104-953518AACEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2C62C5-2F3B-446D-9104-953518AACEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2C62C5-2F3B-446D-9104-953518AACEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2C62C5-2F3B-446D-9104-953518AACEBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
